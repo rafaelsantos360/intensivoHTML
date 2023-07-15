@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+.conteiner{
+    height: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;
+    align-items: center;*/
+    flex-wrap: wrap;
+}
+
+.item1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.item2{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.item3{
+    background-color: saddlebrown;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:0%; left:0% ; transform : translate(0%);
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    border: solid black 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+table th{
+    background-color: aliceblue;
+}
+

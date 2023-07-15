@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+#cabecalho #menu{
+    background-color: azure;
+    width: 15%;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    right: 80%;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar{
+    background-color: beige;
+    width: 15%;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}
+
+a{
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: large;
+    border-bottom: solid #ccc 1px;
+    transition:.3s ease all;
+    cursor: pointer;
+}
+
+.conteiner{
+    box-sizing: border-box;
+    padding: auto;
+}
